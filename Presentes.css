@@ -1,3 +1,7 @@
+:root {
+    --tamanho-imagem: 20px; /* Ajuste esse valor para mudar o tamanho das imagens */
+}
+
 body {
     font-family: 'Playfair Display', serif;
     background: url('https://i.postimg.cc/PrNBsY9p/fundo.png') no-repeat center center fixed;
@@ -33,7 +37,7 @@ h2 {
 
 .lista-presentes {
     margin-top: 20px;
-    font-size: 16px;
+    font-size:26px;
     padding: 10px;
 }
 
@@ -46,16 +50,18 @@ h2 {
 }
 
 .lista-presentes li {
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(51, 3, 66, 0.2);
     padding: 10px;
     margin: 8px 0;
     border-radius: 8px;
     width: 80%;
     max-width: 400px;
 }
-
+:root {
+    --tamanho-imagem: 155px;
+}
 .imagens-presentes {
-    margin-top: 10px;
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -63,9 +69,9 @@ h2 {
 }
 
 .imagens-presentes img {
-    width: 90px;
+    width: var(--tamanho-imagem);
     max-width: 100%;
-    margin: 5px;
+    margin: 20px;
     border-radius: 5px;
 }
 
@@ -82,7 +88,7 @@ h2 {
     .lista-presentes {
         font-size: 14px;
     }
-    .imagens-presentes img {
-        width: 70px;
+    :root {
+        --tamanho-imagem: 80px; /* Ajuste para telas menores */
     }
 }
