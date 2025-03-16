@@ -1,0 +1,113 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: url('https://i.postimg.cc/PrNBsY9p/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 30px 10px;
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.h3 {
+    font-style: italic;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.descricao {
+    font-style: italic;
+    font-size: 18px;
+}
+
+
+.data {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+
+.icones {
+    display: flex;
+    flex-wrap: wrap;  
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.icone {
+    text-align: center;
+    width: 120px;  
+}
+
+.icone i {
+    font-size: 30px;
+    color: white;
+}
+
+.icone p {
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.icons div {
+    background: white;
+    padding: 8px;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.album {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.album a {
+    color: white;
+    text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 40px;
+    }
+    h2 {
+        font-size: 30px;
+    }
+    .icones {
+        flex-direction: column;
+        align-items: center;
+    }
+}

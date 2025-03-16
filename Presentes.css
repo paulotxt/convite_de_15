@@ -1,0 +1,88 @@
+body {
+    font-family: 'Playfair Display', serif;
+    background: url('https://i.postimg.cc/PrNBsY9p/fundo.png') no-repeat center center fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 40px 10px;
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 60px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    margin: 10px 0;
+}
+
+.descricao {
+    font-style: italic;
+    font-size: 18px;
+}
+
+.lista-presentes {
+    margin-top: 20px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+.lista-presentes ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lista-presentes li {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 400px;
+}
+
+.imagens-presentes {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.imagens-presentes img {
+    width: 90px;
+    max-width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    .descricao {
+        font-size: 16px;
+    }
+    .lista-presentes {
+        font-size: 14px;
+    }
+    .imagens-presentes img {
+        width: 70px;
+    }
+}
