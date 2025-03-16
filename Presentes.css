@@ -1,5 +1,5 @@
 :root {
-    --tamanho-imagem: 20px; /* Ajuste esse valor para mudar o tamanho das imagens */
+    --tamanho-imagem: 155px; /* Ajuste esse valor para mudar o tamanho das imagens */
 }
 
 body {
@@ -32,13 +32,13 @@ h2 {
 
 .descricao {
     font-style: italic;
-    font-size: 18px;
+    font-size: 28px;
 }
 
 .lista-presentes {
-    margin-top: 20px;
-    font-size:26px;
-    padding: 10px;
+    margin-top: 30px;
+    font-size: 26px;
+    padding: 0px;
 }
 
 .lista-presentes ul {
@@ -50,22 +50,20 @@ h2 {
 }
 
 .lista-presentes li {
-    background-color: rgba(51, 3, 66, 0.2);
+    background-color: rgba(46, 7, 61, 0.2);
     padding: 10px;
-    margin: 8px 0;
+    margin: 8px ;
     border-radius: 8px;
-    width: 80%;
+    width: 180%;
     max-width: 400px;
 }
-:root {
-    --tamanho-imagem: 155px;
-}
+
 .imagens-presentes {
-    margin-top: 50px;
+    margin-top: 2px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
+    gap: 1px;
 }
 
 .imagens-presentes img {
