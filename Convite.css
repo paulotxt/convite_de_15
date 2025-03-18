@@ -1,3 +1,4 @@
+
 body {
     font-family: 'Playfair Display', serif;
     background: url('https://i.postimg.cc/PrNBsY9p/fundo.png') no-repeat center center fixed;
@@ -79,10 +80,10 @@ h2 {
 
 .icons div {
     background: white;
-    padding: 8px;
-    border-radius: 50%;
-    width: 40px;
-    height: 40px;
+    padding: 10px;
+    border-radius: 150%;
+    width: 60px;
+    height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
