@@ -69,7 +69,7 @@ h2 {
     width: var(--tamanho-imagem);
     max-width: 100%;
     margin: 20px;
-    border-radius: 5px;
+    border-radius: 20px;
 }
 
 @media (max-width: 600px) {
